@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tubers</title>
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" >
+        <link rel="stylesheet" type="text/css" href="./float-grid.css" />
+        <link rel="stylesheet" type="text/css" href="./main.css" />
+        <link rel="stylesheet" type="text/css" href="./profile.css" />
+    </head>
+    <body>
+        <div class="row top-bar">
+            <div class="col-4">
+                <button class="top-buttons side-left-buttons find-tubers">Find Tubers</button>
+                <button class="top-buttons side-right-buttons my-tubers">My Tubers</button>
+            </div>
+            <div class="col-4">
+                <h1>Tubers</h1>
+            </div>
+            <div class="col-4">
+                <button class="top-buttons side-left-buttons upload-new">Upload New</button>
+                <button class="top-buttons side-right-buttons sign-out">Sign Out</button>
+            </div>
+        </div>
+        <section>
+            <h2 class="username-placement"></h2>
+        </section>
+
+        <div id="myModal" class="modal">
+                <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <p class="modal-title"></p>
+              <div class="inner-modal"></div>
+            </div>
+        </div>
+
+        <main class="load-container">
+
+        </main>
+        
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+        <script type="text/javascript" src="./profile.js"></script>
+    </body>
+</html>
